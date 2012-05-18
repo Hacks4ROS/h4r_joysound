@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="joy" name="joy" type="joy_node" output="screen"/>
+    <node pkg="joySound" name="JoySound" type="JoySound" output="screen">
+		<param name="play_file" value="$(find sound_play)/sounds/NEEDS_UNPLUGGING_BADLY.ogg" />
+		<param name="play_button" value="3" />
+	</node>
+	<node pkg="sound_play" name="sound_play" type="soundplay_node.py" output="screen"/>
+</launch>

@@ -1,0 +1,15 @@
+<package>
+	<description brief="joySound">
+	joySound makes it possible to play sound effects on joystick button presses using the ROS 
+	sound_play pack (in stack audio_common). For a usage example look into the given launch file.
+	</description>
+	<author>Christian Holl</author>
+	<license>BSD</license>
+	<review status="unreviewed" notes=""/>
+	<url>http://ros.org/wiki/joySound</url>
+	<depend package="roscpp"/>
+	<depend package="sensor_msgs"/>
+	<depend package="geometry_msgs"/>
+	<depend package="sound_play"/>
+	<depend package="joy"/>
+</package>
