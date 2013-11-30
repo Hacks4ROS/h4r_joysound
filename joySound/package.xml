@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+  <name>joysound</name>
+  <version>1.0.0</version>
+  <description>The joysound package, provides a little application which makes it possible to play soundeffects when pressing a specified joystick button. Launchfile example uses sound by thatjeffcarter (CC), see sound dir for details.</description>
+  <maintainer email="cyborg-x1@gmail.com">Christian Holl</maintainer>
+  <license>BSD</license>
+  <license>CC</license>
+  
+  <author email="cyborg-x1@gmail.com">Christian Holl</author>
+  
+  <build_depend>roscpp</build_depend> 
+  <build_depend>sound_play</build_depend> 
+  <run_depend>sound_play</run_depend>
+  <build_depend>sensor_msgs</build_depend> 
+  <run_depend>sensor_msgs</run_depend>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  <export>
+  </export>
+</package>
