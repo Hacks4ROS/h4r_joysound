@@ -15,3 +15,4 @@
 #Backups
 *.~
 
+/CMakeLists.txt
