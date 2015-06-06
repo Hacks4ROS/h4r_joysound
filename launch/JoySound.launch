@@ -1,7 +1,7 @@
 <launch>
     <node pkg="joy" name="joy" type="joy_node" output="screen"/>
-    <node pkg="joysound" name="JoySound" type="joysound_node" output="screen">
-		<param name="play_file" value="$(find joysound)/sound/106522__thatjeffcarter__inception-sound.wav" />
+    <node pkg="h4r_joysound" name="JoySound" type="joysound_node" output="screen">
+		<param name="play_file" value="$(find h4r_joysound)/sound/106522__thatjeffcarter__inception-sound.wav" />
 		<param name="play_button" value="3" />
 	</node>
 	<node pkg="sound_play" name="sound_play" type="soundplay_node.py" output="screen"/>
