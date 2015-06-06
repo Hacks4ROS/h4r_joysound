@@ -2,8 +2,8 @@
 Changelog for package h4r_joysound
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.0.1 (2015-06-06)
+------------------
 * hint for launchfile
 * add bugtracker and repository to package.xml
 * add installs to CMakeLists

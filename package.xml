@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>h4r_joysound</name>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <description>
     The joysound package, provides a little application which makes it possible 
     to play soundeffects when pressing a specified joystick button. Launchfile
